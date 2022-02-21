@@ -15,7 +15,7 @@ CFLAGS	= -Wall -Wextra -Werror -I${HDRS}
 .c.o:
 			${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
 
-${NAME}:	${OBJS}
+${NAME}:	${OBJS} ${HDRS}
 			ar rc	${NAME}	${OBJS}
 			ranlib ${NAME}
 

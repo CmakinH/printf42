@@ -6,7 +6,7 @@
 /*   By: lfrenzy <lfrenzy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/27 15:59:13 by lfrenzy           #+#    #+#             */
-/*   Updated: 2021/12/27 15:59:15 by lfrenzy          ###   ########.fr       */
+/*   Updated: 2021/12/27 18:19:39 by lfrenzy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <stdarg.h>
 # include <unistd.h>
+//# include <stdio.h>
 
 int	ft_printf(const char *s, ...);
 int	ft_putchar(char c, int *res);

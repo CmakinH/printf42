@@ -6,7 +6,7 @@
 /*   By: lfrenzy <lfrenzy@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/27 15:58:55 by lfrenzy           #+#    #+#             */
-/*   Updated: 2021/12/27 15:58:57 by lfrenzy          ###   ########.fr       */
+/*   Updated: 2021/12/27 18:19:25 by lfrenzy          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,3 +51,37 @@ int	ft_printf(const char *str, ...)
 	va_end(ap);
 	return (res);
 }
+
+//int	main(int argc, char **argv)
+//{
+//
+//	char r;
+//	argv = NULL;
+//	r = 'y';
+//	if (argc >= 1)
+//	{
+//		printf("%d\n", printf("%c", 'C'));
+// 		ft_printf("%d\n", ft_printf("%c", 'C'));
+//		 
+//		ft_printf("%c, %c\n", 'A', 'B');
+//		printf("%c, %c\n", 'A', 'B');
+//		ft_printf("%s, %s\n", "Hello", "fsgd");
+//		printf("%s, %s\n", "Hello", "fsgd");
+//		ft_printf("%c", '\n');
+//		ft_printf("%d\n", INT_MAX);
+//		printf("%d\n", INT_MAX);
+//		ft_printf("%c", '\n');
+//		ft_printf("%u", 1);
+// 		ft_printf("%c", '\n');
+// 		ft_printf("%x", 66);
+// 		ft_printf("%c", '\n');
+// 		ft_printf("%X", 33);
+// 		ft_printf("%c", '\n');
+// 		ft_printf("%p", 33);
+// 		ft_printf("%c", '\n');
+//		ft_printf("%p, %s\n", 33, "коровы");
+// 	}
+// 	printf("%d\n", printf("%c", r));
+//	ft_printf("%d\n", ft_printf("%c", r));
+//	return (0);
+//}
